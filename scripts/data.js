@@ -8,7 +8,7 @@ window.THANKS_DATA = {
     { thumb: 'images/cards/thumbs/card01.jpg', src: 'images/cards/full/card01.jpg', width: 750, height: 540, alt: 'カード1' },
     { thumb: 'images/cards/thumbs/card02.jpg', src: 'images/cards/full/card02.jpg', width: 750, height: 540, alt: 'カード2' },
     { thumb: 'images/cards/thumbs/card03.jpg', src: 'images/cards/full/card03.jpg', width: 750, height: 540, alt: 'カード3' },
-    { thumb: 'images/cards/thumbs/card04.jpg', src: 'images/cards/full/card04.jpg', width: 750, height: 540, alt: 'カード4' },
+    { thumb: 'images/cards/thumbs/card04.jpg', src: 'images/cards/full/card04.jpg', width: 1063, height: 765, alt: 'カード4' },
     { thumb: 'images/cards/thumbs/card05.jpg', src: 'images/cards/full/card05.jpg', width: 750, height: 540, alt: 'カード5' },
     { thumb: 'images/cards/thumbs/card06.jpg', src: 'images/cards/full/card06.jpg', width: 750, height: 540, alt: 'カード6' },
     { thumb: 'images/cards/thumbs/card07.jpg', src: 'images/cards/full/card07.jpg', width: 750, height: 540, alt: 'カード7' },
@@ -33,7 +33,8 @@ window.THANKS_DATA = {
     { thumb: 'images/cards/thumbs/card26.jpg', src: 'images/cards/full/card26.jpg', width: 750, height: 540, alt: 'カード26' },
     { thumb: 'images/cards/thumbs/card27.jpg', src: 'images/cards/full/card27.jpg', width: 750, height: 540, alt: 'カード27' },
     { thumb: 'images/cards/thumbs/card28.jpg', src: 'images/cards/full/card28.jpg', width: 750, height: 540, alt: 'カード28' },
-    { thumb: 'images/cards/thumbs/card29.jpg', src: 'images/cards/full/card29.jpg', width: 750, height: 540, alt: 'カード29' }
+    { thumb: 'images/cards/thumbs/card29.jpg', src: 'images/cards/full/card29.jpg', width: 750, height: 540, alt: 'カード29' },
+    { thumb: 'images/cards/thumbs/card30.jpg', src: 'images/cards/full/card30.jpg', width: 750, height: 540, alt: 'カード30' }
   ],
   photos: [
     { thumb: 'images/photos/thumbs/photo01.jpg', src: 'images/photos/full/photo01.jpg', width: 1477, height: 1108, alt: '思い出写真1' },
