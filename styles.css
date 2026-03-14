@@ -180,9 +180,7 @@ a {
 }
 
 .card-track {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 84%;
+  display: flex;
   gap: 14px;
   overflow-x: auto;
   padding: 4px 6px 14px;
@@ -195,6 +193,7 @@ a {
 }
 
 .card-frame {
+  flex: 0 0 84%;
   scroll-snap-align: center;
   padding: 14px;
 }
@@ -295,7 +294,11 @@ a {
   }
 
   .card-track {
-    grid-auto-columns: 360px;
+    gap: 18px;
+  }
+
+  .card-frame {
+    flex-basis: 360px;
   }
 
   .album-grid {
