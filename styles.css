@@ -48,7 +48,11 @@ a {
   justify-content: center;
 }
 
-.home-shell,
+.home-shell {
+  width: min(100%, 480px);
+  padding: 18px 16px 40px;
+}
+
 .page-shell {
   width: min(100%, 960px);
   padding: 18px 16px 40px;
@@ -71,10 +75,9 @@ a {
 }
 
 .hero-cover {
-  position: relative;
   min-height: min(178vw, 920px);
   background:
-    linear-gradient(180deg, rgba(255, 248, 241, 0.04) 0%, rgba(95, 74, 59, 0.08) 60%, rgba(95, 74, 59, 0.2) 100%),
+    linear-gradient(180deg, rgba(255, 248, 241, 0.02) 0%, rgba(95, 74, 59, 0.04) 65%, rgba(95, 74, 59, 0.12) 100%),
     url("images/top.jpg") center top / cover no-repeat;
 }
 
@@ -84,10 +87,10 @@ a {
 }
 
 .home-actions-overlay {
-  position: absolute;
-  right: 14px;
-  top: 33%;
-  left: 14px;
+  margin-top: -86px;
+  padding: 0 18px 8px;
+  position: relative;
+  z-index: 1;
 }
 
 .action-button,
@@ -98,13 +101,20 @@ a {
   min-height: 64px;
   padding: 16px 20px;
   border: 0;
-  border-radius: 999px;
-  background: linear-gradient(180deg, var(--primary), var(--primary-strong));
-  color: #fffdf9;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.88);
+  color: #444;
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.02em;
-  box-shadow: 0 14px 28px rgba(234, 143, 117, 0.28);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.action-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
 }
 
 .page-header {
@@ -257,13 +267,12 @@ a {
   }
 
   .home-actions {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .home-actions-overlay {
-    right: 22px;
-    top: 36%;
-    left: 22px;
+    margin-top: -96px;
+    padding: 0 22px 8px;
   }
 
   .card-track {
