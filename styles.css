@@ -84,7 +84,7 @@ a {
 
 .home-actions {
   display: grid;
-  gap: 30px;
+  gap: 25px;
 }
 
 .home-actions-overlay {
