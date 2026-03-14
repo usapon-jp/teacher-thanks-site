@@ -295,8 +295,7 @@ a {
   }
 
   .card-track {
-    grid-auto-columns: minmax(0, 360px);
-    justify-content: start;
+    grid-auto-columns: 360px;
   }
 
   .album-grid {
