@@ -91,7 +91,7 @@ a {
   position: absolute;
   right: 24px;
   left: 24px;
-  bottom: 28px;
+  bottom: 86px;
   z-index: 1;
 }
 
@@ -277,7 +277,7 @@ a {
   .home-actions-overlay {
     right: 28px;
     left: 28px;
-    bottom: 34px;
+    bottom: 96px;
   }
 
   .card-track {
