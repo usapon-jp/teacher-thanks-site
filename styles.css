@@ -270,6 +270,15 @@ a {
     padding-top: 28px;
   }
 
+  .home-shell {
+    width: min(100%, 560px);
+  }
+
+  .hero-cover {
+    min-height: auto;
+    aspect-ratio: 9 / 16;
+  }
+
   .home-actions {
     grid-template-columns: 1fr;
   }
@@ -277,7 +286,12 @@ a {
   .home-actions-overlay {
     right: 28px;
     left: 28px;
-    bottom: 300px;
+    bottom: 11%;
+  }
+
+  .action-button {
+    min-height: 72px;
+    font-size: 1.15rem;
   }
 
   .card-track {
