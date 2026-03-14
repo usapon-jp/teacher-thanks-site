@@ -85,11 +85,7 @@ function initCards() {
     title.className = 'card-title';
     title.textContent = item.alt;
 
-    const open = document.createElement('span');
-    open.className = 'open-button';
-    open.textContent = '拡大する';
-
-    meta.append(title, open);
+    meta.append(title);
     article.append(link, meta);
     track.append(article);
   });
