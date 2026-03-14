@@ -78,15 +78,7 @@ function initCards() {
     const link = buildLinkItem(item, 'card-link');
     link.setAttribute('aria-label', `${item.alt}を拡大表示`);
 
-    const meta = document.createElement('div');
-    meta.className = 'card-meta';
-
-    const title = document.createElement('p');
-    title.className = 'card-title';
-    title.textContent = item.alt;
-
-    meta.append(title);
-    article.append(link, meta);
+    article.append(link);
     track.append(article);
   });
 
