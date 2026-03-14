@@ -70,15 +70,24 @@ a {
   overflow: hidden;
 }
 
-.hero-image {
-  width: 100%;
-  height: auto;
+.hero-cover {
+  position: relative;
+  min-height: min(178vw, 920px);
+  background:
+    linear-gradient(180deg, rgba(255, 248, 241, 0.04) 0%, rgba(95, 74, 59, 0.08) 60%, rgba(95, 74, 59, 0.2) 100%),
+    url("images/top.jpg") center top / cover no-repeat;
 }
 
 .home-actions {
   display: grid;
   gap: 14px;
-  margin-top: 18px;
+}
+
+.home-actions-overlay {
+  position: absolute;
+  right: 14px;
+  bottom: 18px;
+  left: 14px;
 }
 
 .action-button,
@@ -249,6 +258,12 @@ a {
 
   .home-actions {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .home-actions-overlay {
+    right: 22px;
+    bottom: 24px;
+    left: 22px;
   }
 
   .card-track {
