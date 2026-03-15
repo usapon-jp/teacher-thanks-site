@@ -1,12 +1,13 @@
 // 画像を追加するときは、対応ファイルを配置して各配列へ1行追加してください。
 window.THANKS_DATA = {
   messages: [
-    { thumb: 'images/messages/message01.jpg', src: 'images/messages/message01.jpg', width: 2475, height: 3500, alt: '寄せ書き1' },
-    { thumb: 'images/messages/message02.jpg', src: 'images/messages/message02.jpg', width: 2298, height: 3250, alt: '寄せ書き2' }
+    { thumb: 'images/messages/message01.jpg?v=20260315a', src: 'images/messages/message01.jpg?v=20260315a', width: 2652, height: 3750, alt: '寄せ書き1' },
+    { thumb: 'images/messages/message02.jpg?v=20260315a', src: 'images/messages/message02.jpg?v=20260315a', width: 2475, height: 3500, alt: '寄せ書き2' },
+    { thumb: 'images/messages/message03.jpg?v=20260315a', src: 'images/messages/message03.jpg?v=20260315a', width: 2652, height: 3750, alt: '寄せ書き3' }
   ],
   cards: [
     { thumb: 'images/cards/thumbs/card01.jpg', src: 'images/cards/full/card01.jpg', width: 750, height: 540, alt: 'カード1' },
-    { thumb: 'images/cards/thumbs/card02.jpg', src: 'images/cards/full/card02.jpg', width: 750, height: 540, alt: 'カード2' },
+    { thumb: 'images/cards/thumbs/card02.jpg', src: 'images/cards/full/card02.jpg', width: 1063, height: 765, alt: 'カード2' },
     { thumb: 'images/cards/thumbs/card03.jpg', src: 'images/cards/full/card03.jpg', width: 750, height: 540, alt: 'カード3' },
     { thumb: 'images/cards/thumbs/card04.jpg', src: 'images/cards/full/card04.jpg', width: 1063, height: 765, alt: 'カード4' },
     { thumb: 'images/cards/thumbs/card05.jpg', src: 'images/cards/full/card05.jpg', width: 750, height: 540, alt: 'カード5' },
@@ -34,7 +35,17 @@ window.THANKS_DATA = {
     { thumb: 'images/cards/thumbs/card27.jpg', src: 'images/cards/full/card27.jpg', width: 750, height: 540, alt: 'カード27' },
     { thumb: 'images/cards/thumbs/card28.jpg', src: 'images/cards/full/card28.jpg', width: 750, height: 540, alt: 'カード28' },
     { thumb: 'images/cards/thumbs/card29.jpg', src: 'images/cards/full/card29.jpg', width: 750, height: 540, alt: 'カード29' },
-    { thumb: 'images/cards/thumbs/card30.jpg', src: 'images/cards/full/card30.jpg', width: 750, height: 540, alt: 'カード30' }
+    { thumb: 'images/cards/thumbs/card30.jpg', src: 'images/cards/full/card30.jpg', width: 750, height: 540, alt: 'カード30' },
+    { thumb: 'images/cards/thumbs/card31.jpg', src: 'images/cards/full/card31.jpg', width: 2000, height: 1440, alt: 'カード31' },
+    { thumb: 'images/cards/thumbs/card32.jpg', src: 'images/cards/full/card32.jpg', width: 2000, height: 1440, alt: 'カード32' },
+    { thumb: 'images/cards/thumbs/card33.jpg', src: 'images/cards/full/card33.jpg', width: 2000, height: 1440, alt: 'カード33' },
+    { thumb: 'images/cards/thumbs/card34.jpg', src: 'images/cards/full/card34.jpg', width: 2000, height: 1440, alt: 'カード34' },
+    { thumb: 'images/cards/thumbs/card35.jpg', src: 'images/cards/full/card35.jpg', width: 2000, height: 1440, alt: 'カード35' },
+    { thumb: 'images/cards/thumbs/card36.jpg', src: 'images/cards/full/card36.jpg', width: 2000, height: 1440, alt: 'カード36' },
+    { thumb: 'images/cards/thumbs/card37.jpg', src: 'images/cards/full/card37.jpg', width: 2000, height: 1440, alt: 'カード37' },
+    { thumb: 'images/cards/thumbs/card38.jpg', src: 'images/cards/full/card38.jpg', width: 2000, height: 1440, alt: 'カード38' },
+    { thumb: 'images/cards/thumbs/card39.jpg', src: 'images/cards/full/card39.jpg', width: 2000, height: 1440, alt: 'カード39' },
+    { thumb: 'images/cards/thumbs/card40.jpg', src: 'images/cards/full/card40.jpg', width: 2000, height: 1440, alt: 'カード40' }
   ],
   photos: [
     { thumb: 'images/photos/thumbs/photo01.jpg', src: 'images/photos/full/photo01.jpg', width: 1477, height: 1108, alt: '思い出写真1' },
